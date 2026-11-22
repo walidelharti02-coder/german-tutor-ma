@@ -1,0 +1,321 @@
+{
+  "id": "einkaufen",
+  "position": 3,
+  "title": "التسوق والمخبزة",
+  "german": "Einkaufen und Bäckerei",
+  "description": "طلب من المخبزة، سول على الثمن وخلّص.",
+  "lessons": [
+    {
+      "title": "ندخلو للمخبزة",
+      "german": "In der Bäckerei",
+      "body": "باش تطلب بأدب، استعمل Ich möchte ثم الحاجة. مع Brot اللي هي das، كنقولو ein Brot. زيد bitte باش تكون مهذب.",
+      "examples": [
+        {
+          "de": "Ich möchte ein Brot, bitte.",
+          "ar": "بغيت خبزة عافاك."
+        },
+        {
+          "de": "{n:Das Brot} ist frisch.",
+          "ar": "الخبز طري."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كيفاش تطلب خبزة بأدب؟",
+          "options": [
+            "Ich möchte ein Brot, bitte.",
+            "Ich bin ein Brot.",
+            "Ich heiße Brot."
+          ],
+          "answer": 0,
+          "feedback": "Ich möchte كتعني بغيت، وbitte هي عافاك."
+        }
+      ]
+    },
+    {
+      "title": "المذكر مع المفعول",
+      "german": "Einen Apfel kaufen",
+      "body": "منين الشي حاجة كتكون هي اللي كنشريوها، كنستعملو Akkusativ. مع الاسم المذكر ein كتولي einen وder كتولي den.",
+      "examples": [
+        {
+          "de": "Ich kaufe {a:einen Apfel}.",
+          "ar": "كنشري تفاحة."
+        },
+        {
+          "de": "Ich nehme {a:den Kuchen}.",
+          "ar": "ناخد الكيكة."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Ich möchte … Apfel.",
+          "options": [
+            "eine",
+            "einen",
+            "ein"
+          ],
+          "answer": 1,
+          "feedback": "Apfel مذكر وهو المفعول به، خاصنا einen."
+        }
+      ]
+    },
+    {
+      "title": "الكمية والجمع",
+      "german": "Stück und Kilo",
+      "body": "من بعد جوج ولا كثر كنستعملو الجمع. Brötchen كتبقى هي نفسها فالجمع، ولكن أداة الجمع هي die. تقدر تطلب بالوزن بـ ein Kilo.",
+      "examples": [
+        {
+          "de": "Zwei Brötchen, bitte.",
+          "ar": "جوج خبزات صغار عافاك."
+        },
+        {
+          "de": "{p:Die Äpfel} sind frisch.",
+          "ar": "التفاح طري."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "شنو هي الصيغة الصحيحة؟",
+          "options": [
+            "Drei Brötchens, bitte.",
+            "Drei Brötchene, bitte.",
+            "Drei Brötchen, bitte."
+          ],
+          "answer": 2,
+          "feedback": "Brötchen ما كتبدلش الشكل ديالها فالجمع."
+        }
+      ]
+    },
+    {
+      "title": "نسولو على الثمن",
+      "german": "Was kostet das?",
+      "body": "باش تسول على ثمن حاجة وحدة قول Was kostet …؟ إلا كانو كثر من وحدة قول Was kosten …؟ فالكتابة الألمانية الفاصلة كتفصل الأورو على السنتيم.",
+      "examples": [
+        {
+          "de": "Was kostet {n:das Brot}?",
+          "ar": "بشحال الخبزة؟"
+        },
+        {
+          "de": "Was kosten {p:die Eier}?",
+          "ar": "بشحال البيض؟"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Was … die Brötchen?",
+          "options": [
+            "kosten",
+            "kostet",
+            "koste"
+          ],
+          "answer": 0,
+          "feedback": "Brötchen هنا جمع، إذن الفعل حتى هو فالجمع."
+        }
+      ]
+    },
+    {
+      "title": "عند الصندوق",
+      "german": "An der Kasse",
+      "body": "bar كتعني كاش وmit Karte كتعني بالكارطة. من بعد mit كنستعملو Dativ. فالأداء تقدر تختصر الجواب لـ Mit Karte, bitte.",
+      "examples": [
+        {
+          "de": "Ich zahle mit {d:der Karte}.",
+          "ar": "غنخلّص بالكارطة."
+        },
+        {
+          "de": "Kann ich bar bezahlen?",
+          "ar": "واش نقدر نخلّص كاش؟"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "شنو كتعني Mit Karte, bitte؟",
+          "options": [
+            "كاش عافاك",
+            "بالكارطة عافاك",
+            "بالتقسيط عافاك"
+          ],
+          "answer": 1,
+          "feedback": "mit Karte هي طريقة الأداء بالبطاقة البنكية."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Brot",
+      "article": "das",
+      "plural": "Brote",
+      "meaning": "الخبز",
+      "example": "{n:Das Brot} kostet zwei Euro."
+    },
+    {
+      "word": "Brötchen",
+      "article": "das",
+      "plural": "Brötchen",
+      "meaning": "خبزة صغيرة",
+      "example": "Ich möchte zwei Brötchen."
+    },
+    {
+      "word": "Apfel",
+      "article": "der",
+      "plural": "Äpfel",
+      "meaning": "التفاحة",
+      "example": "{m:Der Apfel} ist rot."
+    },
+    {
+      "word": "Banane",
+      "article": "die",
+      "plural": "Bananen",
+      "meaning": "البنانة",
+      "example": "{f:Die Banane} ist gelb."
+    },
+    {
+      "word": "Ei",
+      "article": "das",
+      "plural": "Eier",
+      "meaning": "البيضة",
+      "example": "Ein Ei kostet dreißig Cent."
+    },
+    {
+      "word": "Kuchen",
+      "article": "der",
+      "plural": "Kuchen",
+      "meaning": "الكيكة",
+      "example": "{m:Der Kuchen} schmeckt gut."
+    },
+    {
+      "word": "Torte",
+      "article": "die",
+      "plural": "Torten",
+      "meaning": "طورطة",
+      "example": "{f:Die Torte} ist süß."
+    },
+    {
+      "word": "Brezel",
+      "article": "die",
+      "plural": "Brezeln",
+      "meaning": "خبزة بريتسل",
+      "example": "Eine Brezel, bitte."
+    },
+    {
+      "word": "Bäckerei",
+      "article": "die",
+      "plural": "Bäckereien",
+      "meaning": "المخبزة",
+      "example": "{f:Die Bäckerei} öffnet um sechs."
+    },
+    {
+      "word": "Bäcker",
+      "article": "der",
+      "plural": "Bäcker",
+      "meaning": "الخباز",
+      "example": "{m:Der Bäcker} backt Brot."
+    },
+    {
+      "word": "Bäckerin",
+      "article": "die",
+      "plural": "Bäckerinnen",
+      "meaning": "الخبازة",
+      "example": "{f:Die Bäckerin} arbeitet hier."
+    },
+    {
+      "word": "Laden",
+      "article": "der",
+      "plural": "Läden",
+      "meaning": "الحانوت",
+      "example": "{m:Der Laden} ist offen."
+    },
+    {
+      "word": "Markt",
+      "article": "der",
+      "plural": "Märkte",
+      "meaning": "السوق",
+      "example": "Am Samstag gehe ich zum Markt."
+    },
+    {
+      "word": "Preis",
+      "article": "der",
+      "plural": "Preise",
+      "meaning": "الثمن",
+      "example": "{m:Der Preis} ist gut."
+    },
+    {
+      "word": "Euro",
+      "article": "der",
+      "plural": "Euro",
+      "meaning": "الأورو",
+      "example": "Das kostet einen Euro."
+    },
+    {
+      "word": "Cent",
+      "article": "der",
+      "plural": "Cent",
+      "meaning": "سنتيم ديال الأورو",
+      "example": "Das macht fünfzig Cent."
+    },
+    {
+      "word": "Kilo",
+      "article": "das",
+      "plural": "Kilos",
+      "meaning": "الكيلو",
+      "example": "Ein Kilo Äpfel, bitte."
+    },
+    {
+      "word": "Gramm",
+      "article": "das",
+      "plural": "Gramm",
+      "meaning": "الغرام",
+      "example": "Ich nehme hundert Gramm Käse."
+    },
+    {
+      "word": "Stück",
+      "article": "das",
+      "plural": "Stücke",
+      "meaning": "القطعة",
+      "example": "Ein Stück Kuchen, bitte."
+    },
+    {
+      "word": "Tüte",
+      "article": "die",
+      "plural": "Tüten",
+      "meaning": "الميكة أو الكيس",
+      "example": "Brauchen Sie eine Tüte?"
+    },
+    {
+      "word": "Flasche",
+      "article": "die",
+      "plural": "Flaschen",
+      "meaning": "القرعة",
+      "example": "Ich kaufe eine Flasche Wasser."
+    },
+    {
+      "word": "Kasse",
+      "article": "die",
+      "plural": "Kassen",
+      "meaning": "صندوق الأداء",
+      "example": "{f:Die Kasse} ist dort."
+    },
+    {
+      "word": "Karte",
+      "article": "die",
+      "plural": "Karten",
+      "meaning": "الكارطة",
+      "example": "Ich zahle mit {d:der Karte}."
+    },
+    {
+      "word": "Bon",
+      "article": "der",
+      "plural": "Bons",
+      "meaning": "تيكي ديال الخلاص",
+      "example": "Möchten Sie {a:den Bon}?"
+    },
+    {
+      "word": "Einkauf",
+      "article": "der",
+      "plural": "Einkäufe",
+      "meaning": "التقضية",
+      "example": "Mein Einkauf kostet zehn Euro."
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "gesundheit",
+  "position": 5,
+  "title": "الطبيب والصحة",
+  "german": "Arzt und Gesundheit",
+  "description": "شرح شنو كيوجعك وخد موعد مع الطبيب.",
+  "lessons": [
+    {
+      "title": "عند الاستقبال",
+      "german": "In der Arztpraxis",
+      "body": "باش تهضر مع السكرتيرة قول Ich habe einen Termin إلا كان عندك موعد. إلا بغيتي تطلب واحد قول Ich brauche einen Termin. Termin مذكر وكيولي einen هنا.",
+      "examples": [
+        {
+          "de": "Ich habe {a:einen Termin}.",
+          "ar": "عندي موعد."
+        },
+        {
+          "de": "Meine Ärztin heißt Frau Weber.",
+          "ar": "الطبيبة ديالي سميتها السيدة فيبر."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "ما عندكش موعد وبغيتي تطلبو. شنو تقول؟",
+          "options": [
+            "Ich bin ein Termin.",
+            "Ich heiße Termin.",
+            "Ich brauche einen Termin."
+          ],
+          "answer": 2,
+          "feedback": "brauchen معناها نحتاج، وeinen Termin هي المفعول به."
+        }
+      ]
+    },
+    {
+      "title": "أجزاء الجسم",
+      "german": "Mein Körper",
+      "body": "تعلم الاسم مع الأداة ديالو. Kopf مذكر، Hand مؤنث وAuge محايد. مع mein كنبدلو النهاية حسب الجنس ديال الاسم.",
+      "examples": [
+        {
+          "de": "Mein Kopf tut weh.",
+          "ar": "راسي كيضرني."
+        },
+        {
+          "de": "Meine Hand tut weh.",
+          "ar": "يدي كتضرني."
+        },
+        {
+          "de": "{f:Die Hand} ist warm.",
+          "ar": "اليد دافية."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • … Hand tut weh.",
+          "options": [
+            "Meine",
+            "Mein",
+            "Meinen"
+          ],
+          "answer": 0,
+          "feedback": "Hand مؤنث، فهنا كنقولو meine."
+        }
+      ]
+    },
+    {
+      "title": "نوصفو الوجع",
+      "german": "Was tut weh?",
+      "body": "مع جزء واحد ديال الجسم كنقولو tut weh. مع جوج ولا كثر كنقولو tun weh. تقدر حتى تقول Ich habe Kopfschmerzen إلا كان كيضرّك راسك.",
+      "examples": [
+        {
+          "de": "Mein Rücken tut weh.",
+          "ar": "ظهري كيضرني."
+        },
+        {
+          "de": "Meine Beine tun weh.",
+          "ar": "رجليا كيضروني."
+        },
+        {
+          "de": "{p:Die Füße} tun weh.",
+          "ar": "القدمين كيضرّو."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Meine Füße … weh.",
+          "options": [
+            "tut",
+            "tun",
+            "bin"
+          ],
+          "answer": 1,
+          "feedback": "Füße جمع وداكشي علاش كنقولو tun."
+        }
+      ]
+    },
+    {
+      "title": "شحال هادي؟",
+      "german": "Seit wann?",
+      "body": "باش تسول شحال هادي بدا شي عرض قول Seit wann؟ seit كتجي مع Dativ ملي المدة ما زالت مستمرة. Tag كيولي Tagen فهاد الجمع.",
+      "examples": [
+        {
+          "de": "Seit wann haben Sie Husten?",
+          "ar": "شحال هادي وانت كتكح؟"
+        },
+        {
+          "de": "Seit {d:zwei Tagen} habe ich Husten.",
+          "ar": "هادي يومين وأنا كنكح."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Seit zwei … habe ich Husten.",
+          "options": [
+            "Tage",
+            "Tag",
+            "Tagen"
+          ],
+          "answer": 2,
+          "feedback": "من بعد seit كنحتاجو Dativ، والجمع هنا هو Tagen."
+        }
+      ]
+    },
+    {
+      "title": "فالصيدلية",
+      "german": "In der Apotheke",
+      "body": "فالصيدلية تقدر تورّي الوصفة وتطلب توضيح. Wie oft معناها شحال من مرة، وwann معناها فوقاش. عاود السؤال إلا شي كلمة ما فهمتيهاش.",
+      "examples": [
+        {
+          "de": "Hier ist mein Rezept.",
+          "ar": "هادي هي الوصفة ديالي."
+        },
+        {
+          "de": "Wie oft soll ich das nehmen?",
+          "ar": "شحال من مرة خاصني ناخد هادا؟"
+        },
+        {
+          "de": "Ist das {n:das Rezept}?",
+          "ar": "واش هادي هي الوصفة الطبية؟"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "باش تسول على عدد المرات، بشنو تبدا؟",
+          "options": [
+            "Wie oft …?",
+            "Woher …?",
+            "Wie viel kostet …?"
+          ],
+          "answer": 0,
+          "feedback": "Wie oft كنستعملوها للسؤال على التكرار."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Arzt",
+      "article": "der",
+      "plural": "Ärzte",
+      "meaning": "الطبيب",
+      "example": "{m:Der Arzt} ist heute da."
+    },
+    {
+      "word": "Ärztin",
+      "article": "die",
+      "plural": "Ärztinnen",
+      "meaning": "الطبيبة",
+      "example": "{f:Die Ärztin} hört zu."
+    },
+    {
+      "word": "Praxis",
+      "article": "die",
+      "plural": "Praxen",
+      "meaning": "العيادة",
+      "example": "{f:Die Praxis} ist im ersten Stock."
+    },
+    {
+      "word": "Apotheke",
+      "article": "die",
+      "plural": "Apotheken",
+      "meaning": "الفارماسيان",
+      "example": "{f:Die Apotheke} ist nebenan."
+    },
+    {
+      "word": "Krankenhaus",
+      "article": "das",
+      "plural": "Krankenhäuser",
+      "meaning": "السبيطار",
+      "example": "{n:Das Krankenhaus} ist groß."
+    },
+    {
+      "word": "Patient",
+      "article": "der",
+      "plural": "Patienten",
+      "meaning": "المريض",
+      "example": "{m:Der Patient} wartet."
+    },
+    {
+      "word": "Patientin",
+      "article": "die",
+      "plural": "Patientinnen",
+      "meaning": "المريضة",
+      "example": "{f:Die Patientin} kommt um elf."
+    },
+    {
+      "word": "Kopf",
+      "article": "der",
+      "plural": "Köpfe",
+      "meaning": "الراس",
+      "example": "Mein Kopf tut weh."
+    },
+    {
+      "word": "Hals",
+      "article": "der",
+      "plural": "Hälse",
+      "meaning": "الحلق أو العنق",
+      "example": "Mein Hals tut weh."
+    },
+    {
+      "word": "Rücken",
+      "article": "der",
+      "plural": "Rücken",
+      "meaning": "الظهر",
+      "example": "Mein Rücken tut weh."
+    },
+    {
+      "word": "Bauch",
+      "article": "der",
+      "plural": "Bäuche",
+      "meaning": "الكرش",
+      "example": "Mein Bauch tut weh."
+    },
+    {
+      "word": "Arm",
+      "article": "der",
+      "plural": "Arme",
+      "meaning": "الدراع",
+      "example": "Ich kann meinen Arm bewegen."
+    },
+    {
+      "word": "Hand",
+      "article": "die",
+      "plural": "Hände",
+      "meaning": "اليد",
+      "example": "Meine Hand ist kalt."
+    },
+    {
+      "word": "Bein",
+      "article": "das",
+      "plural": "Beine",
+      "meaning": "الرجل",
+      "example": "Mein Bein tut weh."
+    },
+    {
+      "word": "Fuß",
+      "article": "der",
+      "plural": "Füße",
+      "meaning": "القدم",
+      "example": "Mein linker Fuß tut weh."
+    },
+    {
+      "word": "Auge",
+      "article": "das",
+      "plural": "Augen",
+      "meaning": "العين",
+      "example": "Mein Auge ist rot."
+    },
+    {
+      "word": "Ohr",
+      "article": "das",
+      "plural": "Ohren",
+      "meaning": "الودن",
+      "example": "Mein Ohr tut weh."
+    },
+    {
+      "word": "Zahn",
+      "article": "der",
+      "plural": "Zähne",
+      "meaning": "السّن",
+      "example": "Mein Zahn tut weh."
+    },
+    {
+      "word": "Tablette",
+      "article": "die",
+      "plural": "Tabletten",
+      "meaning": "القرص ديال الدوا",
+      "example": "{f:Die Tablette} ist klein."
+    },
+    {
+      "word": "Rezept",
+      "article": "das",
+      "plural": "Rezepte",
+      "meaning": "الوصفة الطبية",
+      "example": "Hier ist mein Rezept."
+    },
+    {
+      "word": "Medikament",
+      "article": "das",
+      "plural": "Medikamente",
+      "meaning": "الدوا",
+      "example": "Wie heißt {n:das Medikament}?"
+    },
+    {
+      "word": "Versicherungskarte",
+      "article": "die",
+      "plural": "Versicherungskarten",
+      "meaning": "كارطة التأمين",
+      "example": "Hier ist meine Versicherungskarte."
+    },
+    {
+      "word": "Wartezimmer",
+      "article": "das",
+      "plural": "Wartezimmer",
+      "meaning": "قاعة الانتظار",
+      "example": "{n:Das Wartezimmer} ist voll."
+    },
+    {
+      "word": "Erkältung",
+      "article": "die",
+      "plural": "Erkältungen",
+      "meaning": "البرد أو الرواح",
+      "example": "Ich habe eine Erkältung."
+    },
+    {
+      "word": "Schmerz",
+      "article": "der",
+      "plural": "Schmerzen",
+      "meaning": "الوجع",
+      "example": "Wo ist {m:der Schmerz}?"
+    }
+  ]
+}

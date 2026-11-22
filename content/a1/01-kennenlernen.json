@@ -1,0 +1,337 @@
+{
+  "id": "kennenlernen",
+  "position": 1,
+  "title": "التعريف بالنفس",
+  "german": "Sich vorstellen",
+  "description": "سلّم، عرّف براسك وهضر على الناس اللي قراب ليك.",
+  "lessons": [
+    {
+      "title": "السلام والتعارف",
+      "german": "Hallo und guten Tag",
+      "body": "مع صحابك تقدر تقول Hallo. فالإدارة ولا مع شي واحد ما كتعرفوش، بدا بـ Guten Tag واستعمل Sie ديال الاحترام.",
+      "examples": [
+        {
+          "de": "Guten Tag, wie heißen Sie?",
+          "ar": "السلام، شنو سميتكم؟"
+        },
+        {
+          "de": "Hallo, ich heiße Amin.",
+          "ar": "سلام، سميتي أمين."
+        },
+        {
+          "de": "Hallo, ist {m:der Platz} hier frei?",
+          "ar": "سلام، واش هاد البلاصة خاوية؟"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "دخلتي للإدارة فالصباح. كيفاش تسلّم بأدب؟",
+          "options": [
+            "Gute Nacht!",
+            "Guten Morgen!",
+            "Bis morgen!"
+          ],
+          "answer": 1,
+          "feedback": "فالصباح كنستعملو Guten Morgen، وGute Nacht كتقال قبل النعاس."
+        }
+      ]
+    },
+    {
+      "title": "الاسم الشخصي والعائلي",
+      "german": "Mein Name",
+      "body": "باش تعرّف براسك، قول Ich heiße وزيد سميتك. فالفورمولير Vorname هو الاسم الشخصي وNachname هو النسب.",
+      "examples": [
+        {
+          "de": "{m:Der Vorname} ist Amin.",
+          "ar": "الاسم الشخصي هو أمين."
+        },
+        {
+          "de": "Mein Nachname ist Benali.",
+          "ar": "النسب ديالي بنعلي."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل الجملة • Ich … Samira.",
+          "options": [
+            "heißt",
+            "heißen",
+            "heiße"
+          ],
+          "answer": 2,
+          "feedback": "مع ich كنصرفو heißen ونقولو ich heiße."
+        }
+      ]
+    },
+    {
+      "title": "منين نتا؟",
+      "german": "Woher kommst du?",
+      "body": "Woher كنستعملوها باش نسولو على الأصل. الجواب فيه aus وموراها اسم البلاد. باش تسول فين ساكن دابا، استعمل Wo.",
+      "examples": [
+        {
+          "de": "Ich komme aus Marokko.",
+          "ar": "أنا من المغرب."
+        },
+        {
+          "de": "Wo wohnen Sie jetzt?",
+          "ar": "فين ساكنين دابا؟"
+        },
+        {
+          "de": "Wie heißt {f:die Stadt}, aus der Sie kommen?",
+          "ar": "شنو سميت المدينة اللي جيتو منها؟"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "بغيتي تقول أنا من المغرب. اختار الجملة المناسبة.",
+          "options": [
+            "Ich komme aus Marokko.",
+            "Ich wohne nach Marokko.",
+            "Ich heiße Marokko."
+          ],
+          "answer": 0,
+          "feedback": "aus كتعني من، وكتجي مع kommen باش نهضرو على الأصل."
+        }
+      ]
+    },
+    {
+      "title": "اللغات اللي كنهضر",
+      "german": "Meine Sprachen",
+      "body": "مع ich كنقولو spreche ومع du كنقولو sprichst. أسماء اللغات بحال Deutsch كتبدأ بحرف كبير. ein bisschen كتعني شوية.",
+      "examples": [
+        {
+          "de": "Ich spreche Arabisch und ein bisschen Deutsch.",
+          "ar": "كنهضر العربية وشوية ديال الألمانية."
+        },
+        {
+          "de": "Sprichst du Deutsch?",
+          "ar": "واش كتهضر الألمانية؟"
+        },
+        {
+          "de": "Ist Deutsch {f:die Sprache} im Kurs?",
+          "ar": "واش الألمانية هي اللغة ديال الدرس؟"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كيفاش تسول صاحبك واش كيهضر الألمانية؟",
+          "options": [
+            "Spreche du Deutsch?",
+            "Sprichst du Deutsch?",
+            "Sprechen ich Deutsch?"
+          ],
+          "answer": 1,
+          "feedback": "مع du الفعل sprechen كيولي sprichst، وفالسؤال ديال نعم ولا لا كيجي فاللول."
+        }
+      ]
+    },
+    {
+      "title": "قدّم العائلة ديالك",
+      "german": "Meine Familie",
+      "body": "باش تقول ديالي، استعمل mein مع الاسم المذكر والمحايد، وmeine مع المؤنث والجمع. ركّز على الاسم اللي من بعد الكلمة.",
+      "examples": [
+        {
+          "de": "Das ist mein Vater.",
+          "ar": "هادا با ديالي."
+        },
+        {
+          "de": "Das ist meine Schwester.",
+          "ar": "هادي ختي."
+        },
+        {
+          "de": "{p:Die Kinder} heißen Salma und Adam.",
+          "ar": "الوليدات سميتهم سلمى وآدم."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Das ist … Mutter.",
+          "options": [
+            "mein",
+            "meinen",
+            "meine"
+          ],
+          "answer": 2,
+          "feedback": "Mutter مؤنث، وداكشي علاش كنقولو meine Mutter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Name",
+      "article": "der",
+      "plural": "Namen",
+      "meaning": "السمية",
+      "example": "{m:Der Name} ist kurz."
+    },
+    {
+      "word": "Vorname",
+      "article": "der",
+      "plural": "Vornamen",
+      "meaning": "الاسم الشخصي",
+      "example": "Mein Vorname ist Youssef."
+    },
+    {
+      "word": "Nachname",
+      "article": "der",
+      "plural": "Nachnamen",
+      "meaning": "النسب",
+      "example": "Wie schreibt man Ihren Nachnamen?"
+    },
+    {
+      "word": "Mann",
+      "article": "der",
+      "plural": "Männer",
+      "meaning": "الراجل",
+      "example": "{m:Der Mann} heißt Ali."
+    },
+    {
+      "word": "Frau",
+      "article": "die",
+      "plural": "Frauen",
+      "meaning": "المرأة",
+      "example": "{f:Die Frau} kommt aus Fès."
+    },
+    {
+      "word": "Kind",
+      "article": "das",
+      "plural": "Kinder",
+      "meaning": "الطفل",
+      "example": "{n:Das Kind} lernt Deutsch."
+    },
+    {
+      "word": "Familie",
+      "article": "die",
+      "plural": "Familien",
+      "meaning": "العائلة",
+      "example": "Meine Familie wohnt in Rabat."
+    },
+    {
+      "word": "Vater",
+      "article": "der",
+      "plural": "Väter",
+      "meaning": "الأب",
+      "example": "Mein Vater heißt Karim."
+    },
+    {
+      "word": "Mutter",
+      "article": "die",
+      "plural": "Mütter",
+      "meaning": "الأم",
+      "example": "Meine Mutter spricht Arabisch."
+    },
+    {
+      "word": "Bruder",
+      "article": "der",
+      "plural": "Brüder",
+      "meaning": "الأخ",
+      "example": "Mein Bruder ist achtzehn."
+    },
+    {
+      "word": "Schwester",
+      "article": "die",
+      "plural": "Schwestern",
+      "meaning": "الأخت",
+      "example": "Meine Schwester wohnt in Bonn."
+    },
+    {
+      "word": "Freund",
+      "article": "der",
+      "plural": "Freunde",
+      "meaning": "الصديق",
+      "example": "Ali ist mein Freund."
+    },
+    {
+      "word": "Freundin",
+      "article": "die",
+      "plural": "Freundinnen",
+      "meaning": "الصديقة",
+      "example": "Sara ist meine Freundin."
+    },
+    {
+      "word": "Land",
+      "article": "das",
+      "plural": "Länder",
+      "meaning": "البلاد",
+      "example": "Wie heißt {n:das Land}?"
+    },
+    {
+      "word": "Stadt",
+      "article": "die",
+      "plural": "Städte",
+      "meaning": "المدينة",
+      "example": "Fès ist eine Stadt in Marokko."
+    },
+    {
+      "word": "Sprache",
+      "article": "die",
+      "plural": "Sprachen",
+      "meaning": "اللغة",
+      "example": "Welche Sprache sprichst du?"
+    },
+    {
+      "word": "Lehrer",
+      "article": "der",
+      "plural": "Lehrer",
+      "meaning": "الأستاذ",
+      "example": "{m:Der Lehrer} heißt Walid."
+    },
+    {
+      "word": "Lehrerin",
+      "article": "die",
+      "plural": "Lehrerinnen",
+      "meaning": "الأستاذة",
+      "example": "Meine Lehrerin kommt aus Berlin."
+    },
+    {
+      "word": "Schüler",
+      "article": "der",
+      "plural": "Schüler",
+      "meaning": "التلميذ",
+      "example": "{m:Der Schüler} spricht Deutsch."
+    },
+    {
+      "word": "Schülerin",
+      "article": "die",
+      "plural": "Schülerinnen",
+      "meaning": "التلميذة",
+      "example": "{f:Die Schülerin} heißt Lina."
+    },
+    {
+      "word": "Jahr",
+      "article": "das",
+      "plural": "Jahre",
+      "meaning": "العام",
+      "example": "Ich bin zwanzig Jahre alt."
+    },
+    {
+      "word": "Wohnort",
+      "article": "der",
+      "plural": "Wohnorte",
+      "meaning": "مكان السكن",
+      "example": "Mein Wohnort ist Köln."
+    },
+    {
+      "word": "Adresse",
+      "article": "die",
+      "plural": "Adressen",
+      "meaning": "العنوان",
+      "example": "Wie lautet Ihre Adresse?"
+    },
+    {
+      "word": "Foto",
+      "article": "das",
+      "plural": "Fotos",
+      "meaning": "التصويرة",
+      "example": "Das ist ein Foto von mir."
+    },
+    {
+      "word": "Buchstabe",
+      "article": "der",
+      "plural": "Buchstaben",
+      "meaning": "الحرف",
+      "example": "A ist {m:der} erste Buchstabe."
+    }
+  ]
+}

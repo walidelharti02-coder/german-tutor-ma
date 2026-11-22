@@ -1,0 +1,93 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String           @id
+  name     String
+  level    String           @default("A1")
+  mistakes Mistake[]
+  reviews  Review[]
+  progress LessonProgress[]
+}
+
+model Module {
+  id          String       @id
+  position    Int          @unique
+  title       String
+  german      String
+  description String
+  lessons     Lesson[]
+  vocabulary  Vocabulary[]
+}
+
+model Lesson {
+  id        String           @id
+  moduleId  String
+  module    Module           @relation(fields: [moduleId], references: [id])
+  position  Int
+  title     String
+  german    String
+  body      String
+  examples  Json
+  exercises Json
+  progress  LessonProgress[]
+
+  @@unique([moduleId, position])
+}
+
+model Vocabulary {
+  id       String @id
+  moduleId String
+  module   Module @relation(fields: [moduleId], references: [id])
+  word     String
+  article  String
+  plural   String
+  meaning  String
+  example  String
+
+  @@index([moduleId, article])
+}
+
+model LessonProgress {
+  userId      String
+  lessonId    String
+  user        User     @relation(fields: [userId], references: [id])
+  lesson      Lesson   @relation(fields: [lessonId], references: [id])
+  completedAt DateTime @default(now())
+
+  @@id([userId, lessonId])
+}
+
+model Mistake {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id])
+  sentence          String
+  correctedSentence String
+  errorType         String
+  explanationDarija String
+  createdAt         DateTime @default(now())
+  review            Review?
+
+  @@unique([id, userId])
+  @@index([userId, createdAt])
+}
+
+model Review {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+  mistakeId    String   @unique
+  mistake      Mistake  @relation(fields: [mistakeId, userId], references: [id, userId], onDelete: Cascade)
+  dueAt        DateTime @default(now())
+  intervalDays Int      @default(0)
+
+  @@unique([mistakeId, userId])
+  @@index([userId, dueAt])
+}

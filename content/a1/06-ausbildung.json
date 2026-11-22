@@ -1,0 +1,337 @@
+{
+  "id": "ausbildung",
+  "position": 6,
+  "title": "العمل والتكوين المهني",
+  "german": "Arbeit und Ausbildung",
+  "description": "قدّم المهارات ديالك وتمرّن على مقابلة التكوين المهني.",
+  "lessons": [
+    {
+      "title": "شنو خدمتك؟",
+      "german": "Mein Beruf",
+      "body": "باش تقول المهنة ديالك قول Ich bin ومن بعد اسم المهنة غالباً بلا أداة. إلا بغيتي تقول فين كتخدم قول Ich arbeite bei وزيد اسم الشركة.",
+      "examples": [
+        {
+          "de": "Ich bin Mechaniker.",
+          "ar": "أنا ميكانيكي."
+        },
+        {
+          "de": "Ich arbeite in {d:einer Werkstatt}.",
+          "ar": "كنخدم فواحد الورشة."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "اختار الجواب الطبيعي على Was sind Sie von Beruf؟",
+          "options": [
+            "Ich bin Bäcker.",
+            "Ich heiße Bäcker von Beruf.",
+            "Ich wohne Bäcker."
+          ],
+          "answer": 0,
+          "feedback": "Ich bin وزيد المهنة كتجاوب مباشرة على السؤال."
+        }
+      ]
+    },
+    {
+      "title": "التكوين المهني",
+      "german": "Eine Ausbildung machen",
+      "body": "Ausbildung تكوين مهني. باش تقول كتدير تكوين فشي مهنة قول Ich mache eine Ausbildung zum … للمذكر ولا zur … للمؤنث.",
+      "examples": [
+        {
+          "de": "Ich mache eine Ausbildung zum Koch.",
+          "ar": "كندير تكوين مهني فالطياب."
+        },
+        {
+          "de": "Sie macht eine Ausbildung zur Bäckerin.",
+          "ar": "هي كتدير تكوين فالخبازة."
+        },
+        {
+          "de": "{f:Die Ausbildung} beginnt im August.",
+          "ar": "التكوين كيبدا فغشت."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Sie macht eine Ausbildung … Köchin.",
+          "options": [
+            "zum",
+            "zur",
+            "am"
+          ],
+          "answer": 1,
+          "feedback": "zur هي zu der وكتجي مع المهنة المؤنثة."
+        }
+      ]
+    },
+    {
+      "title": "نقدّم المهارات",
+      "german": "Das kann ich",
+      "body": "können كتعني تقدر دير شي حاجة. مع ich كتولي kann. الفعل الثاني كيمشي للآخر فالصيغة الأصلية ديالو بحال kochen.",
+      "examples": [
+        {
+          "de": "Ich kann gut kochen.",
+          "ar": "كنعرف نطيب مزيان."
+        },
+        {
+          "de": "Ich kann am Computer arbeiten.",
+          "ar": "كنعرف نخدم بالكمبيوتر."
+        },
+        {
+          "de": "Ich kann mit {d:dem Computer} arbeiten.",
+          "ar": "كنعرف نخدم بالحاسوب."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "رتب الجملة الصحيحة.",
+          "options": [
+            "Ich backen kann gut.",
+            "Ich kann gut backe.",
+            "Ich kann gut backen."
+          ],
+          "answer": 2,
+          "feedback": "kann كيجا فالموضع الثاني، وbacken كيبقى فالآخر."
+        }
+      ]
+    },
+    {
+      "title": "التوقيت فالخدمة",
+      "german": "Meine Arbeitszeit",
+      "body": "باش تعطي بداية ونهاية الخدمة استعمل von … bis … . فالألمانية الفعل المصرف فالجملة الخبرية كيبقى فالموضع الثاني حتى إلا بدينا بالوقت.",
+      "examples": [
+        {
+          "de": "Ich arbeite von acht bis vier Uhr.",
+          "ar": "كنخدم من التمنية حتى للربعة."
+        },
+        {
+          "de": "Am Montag beginne ich um neun Uhr.",
+          "ar": "نهار الاثنين كنبدا مع التسعود."
+        },
+        {
+          "de": "{f:Die Schicht} endet um vier Uhr.",
+          "ar": "النوبة كتسالي مع الربعة."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Am Dienstag … ich um acht Uhr.",
+          "options": [
+            "beginne",
+            "ich beginne",
+            "beginnen"
+          ],
+          "answer": 0,
+          "feedback": "Am Dienstag خدا الموضع الأول، إذن الفعل beginne كيجي مباشرة من بعدو."
+        }
+      ]
+    },
+    {
+      "title": "مقابلة التكوين",
+      "german": "Im Vorstellungsgespräch",
+      "body": "فالمقابلة سلّم بـ Guten Tag، قدّم راسك وعطي سبب بسيط علاش بغيتي المهنة. جوج جمل قصار حسن من جملة طويلة كتحيّرك.",
+      "examples": [
+        {
+          "de": "Ich möchte Koch werden.",
+          "ar": "بغيت نولي طباخ."
+        },
+        {
+          "de": "Ich koche gern und arbeite gern im Team.",
+          "ar": "كيعجبني نطيب ونخدم مع الفريق."
+        },
+        {
+          "de": "{n:Das Gespräch} beginnt um zehn Uhr.",
+          "ar": "المقابلة كتبدا مع العشرة."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "سولوك علاش بغيتي تولي طباخ. شنو تجاوب؟",
+          "options": [
+            "Mein Name ist Karim.",
+            "Ich koche sehr gern.",
+            "Es ist acht Uhr."
+          ],
+          "answer": 1,
+          "feedback": "Ich koche sehr gern كتعطي سبب بسيط ومرتبط بالمهنة."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Beruf",
+      "article": "der",
+      "plural": "Berufe",
+      "meaning": "المهنة",
+      "example": "Was ist Ihr Beruf?"
+    },
+    {
+      "word": "Ausbildung",
+      "article": "die",
+      "plural": "Ausbildungen",
+      "meaning": "التكوين المهني",
+      "example": "Meine Ausbildung dauert drei Jahre."
+    },
+    {
+      "word": "Betrieb",
+      "article": "der",
+      "plural": "Betriebe",
+      "meaning": "المؤسسة",
+      "example": "{m:Der Betrieb} ist klein."
+    },
+    {
+      "word": "Firma",
+      "article": "die",
+      "plural": "Firmen",
+      "meaning": "الشركة",
+      "example": "{f:Die Firma} sucht Azubis."
+    },
+    {
+      "word": "Kollege",
+      "article": "der",
+      "plural": "Kollegen",
+      "meaning": "الزميل",
+      "example": "Mein Kollege hilft mir."
+    },
+    {
+      "word": "Kollegin",
+      "article": "die",
+      "plural": "Kolleginnen",
+      "meaning": "الزميلة",
+      "example": "Meine Kollegin heißt Lea."
+    },
+    {
+      "word": "Chef",
+      "article": "der",
+      "plural": "Chefs",
+      "meaning": "المدير",
+      "example": "{m:Der Chef} ist freundlich."
+    },
+    {
+      "word": "Chefin",
+      "article": "die",
+      "plural": "Chefinnen",
+      "meaning": "المديرة",
+      "example": "Meine Chefin kommt um neun."
+    },
+    {
+      "word": "Team",
+      "article": "das",
+      "plural": "Teams",
+      "meaning": "الفريق",
+      "example": "Unser Team ist klein."
+    },
+    {
+      "word": "Werkstatt",
+      "article": "die",
+      "plural": "Werkstätten",
+      "meaning": "الورشة",
+      "example": "{f:Die Werkstatt} ist offen."
+    },
+    {
+      "word": "Büro",
+      "article": "das",
+      "plural": "Büros",
+      "meaning": "المكتب",
+      "example": "Mein Büro ist oben."
+    },
+    {
+      "word": "Computer",
+      "article": "der",
+      "plural": "Computer",
+      "meaning": "الحاسوب",
+      "example": "{m:Der Computer} ist neu."
+    },
+    {
+      "word": "Werkzeug",
+      "article": "das",
+      "plural": "Werkzeuge",
+      "meaning": "الأداة",
+      "example": "Ich brauche mein Werkzeug."
+    },
+    {
+      "word": "Koch",
+      "article": "der",
+      "plural": "Köche",
+      "meaning": "الطياب",
+      "example": "{m:Der Koch} macht Suppe."
+    },
+    {
+      "word": "Köchin",
+      "article": "die",
+      "plural": "Köchinnen",
+      "meaning": "الطيابة",
+      "example": "{f:Die Köchin} beginnt früh."
+    },
+    {
+      "word": "Mechaniker",
+      "article": "der",
+      "plural": "Mechaniker",
+      "meaning": "الميكانيكي",
+      "example": "Mein Bruder ist Mechaniker."
+    },
+    {
+      "word": "Mechanikerin",
+      "article": "die",
+      "plural": "Mechanikerinnen",
+      "meaning": "الميكانيكية",
+      "example": "Sara wird Mechanikerin."
+    },
+    {
+      "word": "Vertrag",
+      "article": "der",
+      "plural": "Verträge",
+      "meaning": "العقد",
+      "example": "{m:Der Vertrag} ist fertig."
+    },
+    {
+      "word": "Bewerbung",
+      "article": "die",
+      "plural": "Bewerbungen",
+      "meaning": "طلب الترشيح",
+      "example": "Meine Bewerbung ist fertig."
+    },
+    {
+      "word": "Lebenslauf",
+      "article": "der",
+      "plural": "Lebensläufe",
+      "meaning": "السيرة الذاتية",
+      "example": "Hier ist mein Lebenslauf."
+    },
+    {
+      "word": "Zeugnis",
+      "article": "das",
+      "plural": "Zeugnisse",
+      "meaning": "الشهادة",
+      "example": "Mein Zeugnis liegt hier."
+    },
+    {
+      "word": "Gespräch",
+      "article": "das",
+      "plural": "Gespräche",
+      "meaning": "الحوار",
+      "example": "{n:Das Gespräch} beginnt jetzt."
+    },
+    {
+      "word": "Frage",
+      "article": "die",
+      "plural": "Fragen",
+      "meaning": "السؤال",
+      "example": "Ich habe eine Frage."
+    },
+    {
+      "word": "Antwort",
+      "article": "die",
+      "plural": "Antworten",
+      "meaning": "الجواب",
+      "example": "Danke für Ihre Antwort."
+    },
+    {
+      "word": "Schicht",
+      "article": "die",
+      "plural": "Schichten",
+      "meaning": "النوبة ديال الخدمة",
+      "example": "Meine Schicht beginnt um sechs."
+    }
+  ]
+}

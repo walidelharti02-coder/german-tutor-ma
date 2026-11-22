@@ -1,0 +1,329 @@
+{
+  "id": "zeit",
+  "position": 2,
+  "title": "الأرقام والوقت",
+  "german": "Zahlen und Uhrzeit",
+  "description": "قرا الأرقام واتّافق على الوقت ديال الموعد.",
+  "lessons": [
+    {
+      "title": "نعدّو حتى لعشرين",
+      "german": "Bis zwanzig zählen",
+      "body": "حفظ الأعداد من eins حتى zwölf. من dreizehn كاتسمع غالباً العدد الصغير ومن وراه zehn. ردّ البال لـ sechzehn وsiebzehn.",
+      "examples": [
+        {
+          "de": "Ich bin neunzehn Jahre alt.",
+          "ar": "عندي تسعتاش لعام."
+        },
+        {
+          "de": "{f:Die Zahl} ist zwölf.",
+          "ar": "الرقم هو طناش."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "شنو هي 16 بالألمانية؟",
+          "options": [
+            "sechszehn",
+            "sechzig",
+            "sechzehn"
+          ],
+          "answer": 2,
+          "feedback": "كنقولو sechzehn بلا s ديال sechs."
+        }
+      ]
+    },
+    {
+      "title": "العشرات والوحدات",
+      "german": "Einundzwanzig",
+      "body": "فالأعداد من 21 حتى 99، كنقولو الوحدات ثم und ثم العشرات. 24 هي vier-und-zwanzig وكنكتبوها كلمة وحدة.",
+      "examples": [
+        {
+          "de": "Ich habe vierundzwanzig Euro.",
+          "ar": "عندي ربعة وعشرين أورو."
+        },
+        {
+          "de": "{m:Der Bus} hat die Nummer dreiundvierzig.",
+          "ar": "الطوبيس النمرة ديالو ثلاثة وأربعين."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كيفاش نقولو 35؟",
+          "options": [
+            "fünfunddreißig",
+            "dreiundfünfzig",
+            "fünfzehn"
+          ],
+          "answer": 0,
+          "feedback": "5 هي fünf و30 هي dreißig، كنربطوهم بـ und."
+        }
+      ]
+    },
+    {
+      "title": "شحال فالساعة؟",
+      "german": "Wie spät ist es?",
+      "body": "باش تقول الوقت الرسمي، قول الساعة ثم Uhr ثم الدقايق. فالهضرة halb acht كتعني سبعة ونص حيث باقي نص ساعة للتمانية.",
+      "examples": [
+        {
+          "de": "Es ist sieben Uhr dreißig.",
+          "ar": "راه السبعة ونص."
+        },
+        {
+          "de": "Es ist halb acht.",
+          "ar": "راه السبعة ونص."
+        },
+        {
+          "de": "{f:Die Uhr} zeigt halb acht.",
+          "ar": "الساعة كتشير للسبعة ونص."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "شحال هي halb neun؟",
+          "options": [
+            "09:30",
+            "08:30",
+            "08:15"
+          ],
+          "answer": 1,
+          "feedback": "halb كتشير لنص الساعة اللي جاية، يعني باقي نص ساعة للتسعود."
+        }
+      ]
+    },
+    {
+      "title": "أيام السيمانة",
+      "german": "Die Wochentage",
+      "body": "باش تقول نهار معين استعمل am قبل النهار. باش تعطي ساعة محددة قول um. تقدر تجمعهم بجوج فجملة وحدة.",
+      "examples": [
+        {
+          "de": "Am Montag lerne ich Deutsch.",
+          "ar": "نهار الاثنين كنتعلم الألمانية."
+        },
+        {
+          "de": "{m:Der Kurs} beginnt um neun Uhr.",
+          "ar": "الدرس كيبدا مع التسعود."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • … Freitag arbeite ich.",
+          "options": [
+            "Um",
+            "Im",
+            "Am"
+          ],
+          "answer": 2,
+          "feedback": "مع نهار السيمانة كنستعملو am."
+        }
+      ]
+    },
+    {
+      "title": "نحددو الموعد",
+      "german": "Einen Termin machen",
+      "body": "باش تقترح وقت قول Hast du am … Zeit؟ مع الاحترام قول Haben Sie. إلا ماقدرتيش قول leider وزيد اقتراح آخر.",
+      "examples": [
+        {
+          "de": "Haben Sie am Dienstag Zeit?",
+          "ar": "واش عندكم الوقت نهار الثلاثاء؟"
+        },
+        {
+          "de": "Um zehn Uhr passt es mir.",
+          "ar": "العشرة مناسبة ليا."
+        },
+        {
+          "de": "{m:Der Termin} ist am Freitag.",
+          "ar": "الموعد نهار الجمعة."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كيفاش تقترح ساعة بالضبط؟",
+          "options": [
+            "Um elf Uhr.",
+            "Am elf Uhr.",
+            "Im elf Uhr."
+          ],
+          "answer": 0,
+          "feedback": "الساعة المحددة كتجي مع um."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Zahl",
+      "article": "die",
+      "plural": "Zahlen",
+      "meaning": "العدد",
+      "example": "{f:Die Zahl} ist zehn."
+    },
+    {
+      "word": "Nummer",
+      "article": "die",
+      "plural": "Nummern",
+      "meaning": "النمرة",
+      "example": "Meine Nummer ist vier."
+    },
+    {
+      "word": "Uhr",
+      "article": "die",
+      "plural": "Uhren",
+      "meaning": "الساعة",
+      "example": "{f:Die Uhr} ist neu."
+    },
+    {
+      "word": "Stunde",
+      "article": "die",
+      "plural": "Stunden",
+      "meaning": "ساعة ديال المدة",
+      "example": "{m:Der Kurs} dauert eine Stunde."
+    },
+    {
+      "word": "Minute",
+      "article": "die",
+      "plural": "Minuten",
+      "meaning": "الدقيقة",
+      "example": "Eine Minute hat sechzig Sekunden."
+    },
+    {
+      "word": "Sekunde",
+      "article": "die",
+      "plural": "Sekunden",
+      "meaning": "الثانية",
+      "example": "Warte eine Sekunde!"
+    },
+    {
+      "word": "Tag",
+      "article": "der",
+      "plural": "Tage",
+      "meaning": "النهار",
+      "example": "{m:Der Tag} beginnt früh."
+    },
+    {
+      "word": "Woche",
+      "article": "die",
+      "plural": "Wochen",
+      "meaning": "السيمانة",
+      "example": "Eine Woche hat sieben Tage."
+    },
+    {
+      "word": "Monat",
+      "article": "der",
+      "plural": "Monate",
+      "meaning": "الشهر",
+      "example": "{m:Der Monat} hat dreißig Tage."
+    },
+    {
+      "word": "Morgen",
+      "article": "der",
+      "plural": "Morgen",
+      "meaning": "الصباح",
+      "example": "Am Morgen trinke ich Tee."
+    },
+    {
+      "word": "Mittag",
+      "article": "der",
+      "plural": "Mittage",
+      "meaning": "نص النهار",
+      "example": "Am Mittag esse ich zu Hause."
+    },
+    {
+      "word": "Abend",
+      "article": "der",
+      "plural": "Abende",
+      "meaning": "العشية",
+      "example": "Am Abend lese ich."
+    },
+    {
+      "word": "Nacht",
+      "article": "die",
+      "plural": "Nächte",
+      "meaning": "الليل",
+      "example": "{f:Die Nacht} ist ruhig."
+    },
+    {
+      "word": "Montag",
+      "article": "der",
+      "plural": "Montage",
+      "meaning": "الاثنين",
+      "example": "Am Montag habe ich Zeit."
+    },
+    {
+      "word": "Dienstag",
+      "article": "der",
+      "plural": "Dienstage",
+      "meaning": "الثلاثاء",
+      "example": "Am Dienstag lerne ich Deutsch."
+    },
+    {
+      "word": "Mittwoch",
+      "article": "der",
+      "plural": "Mittwoche",
+      "meaning": "الأربعاء",
+      "example": "Am Mittwoch spiele ich Fußball."
+    },
+    {
+      "word": "Donnerstag",
+      "article": "der",
+      "plural": "Donnerstage",
+      "meaning": "الخميس",
+      "example": "Am Donnerstag kommt Sara."
+    },
+    {
+      "word": "Freitag",
+      "article": "der",
+      "plural": "Freitage",
+      "meaning": "الجمعة",
+      "example": "Am Freitag endet der Kurs."
+    },
+    {
+      "word": "Samstag",
+      "article": "der",
+      "plural": "Samstage",
+      "meaning": "السبت",
+      "example": "Am Samstag kaufe ich ein."
+    },
+    {
+      "word": "Sonntag",
+      "article": "der",
+      "plural": "Sonntage",
+      "meaning": "الأحد",
+      "example": "Am Sonntag schlafe ich lange."
+    },
+    {
+      "word": "Wochenende",
+      "article": "das",
+      "plural": "Wochenenden",
+      "meaning": "ويكاند",
+      "example": "Am Wochenende besuche ich Ali."
+    },
+    {
+      "word": "Termin",
+      "article": "der",
+      "plural": "Termine",
+      "meaning": "الموعد",
+      "example": "{m:Der Termin} ist morgen."
+    },
+    {
+      "word": "Kalender",
+      "article": "der",
+      "plural": "Kalender",
+      "meaning": "التقويم",
+      "example": "{m:Der Kalender} hängt hier."
+    },
+    {
+      "word": "Pause",
+      "article": "die",
+      "plural": "Pausen",
+      "meaning": "الاستراحة",
+      "example": "{f:Die Pause} dauert zehn Minuten."
+    },
+    {
+      "word": "Wecker",
+      "article": "der",
+      "plural": "Wecker",
+      "meaning": "المنبّه",
+      "example": "Mein Wecker klingelt um sieben."
+    }
+  ]
+}

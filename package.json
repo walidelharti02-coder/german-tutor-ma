@@ -1,0 +1,39 @@
+{
+  "name": "german-tutor-ma",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "seed": "node --import tsx prisma/seed.ts",
+    "setup": "node scripts/setup.mjs && prisma generate && prisma db push && npm run seed"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.2.0",
+    "@fontsource-variable/noto-sans-arabic": "^5.2.0",
+    "@google/genai": "^1.30.0",
+    "@prisma/client": "6.19.x",
+    "lucide-react": "^0.468.0",
+    "msedge-tts": "^2.0.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "postcss": "^8.5.0",
+    "prisma": "6.19.x",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

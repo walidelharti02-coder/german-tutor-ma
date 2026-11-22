@@ -1,0 +1,329 @@
+{
+  "id": "wohnen",
+  "position": 4,
+  "title": "السكن والبلدية",
+  "german": "Wohnen und Rathaus",
+  "description": "وصف دارك ووجد راسك لتسجيل السكن فالبلدية.",
+  "lessons": [
+    {
+      "title": "الدار والبيوت",
+      "german": "Meine Wohnung",
+      "body": "باش توصف الدار ديالك قول Meine Wohnung hat … ومن بعد عدد البيوت. Zimmer ما كيتبدلش فالجمع. Küche هي الكوزينة وBad هو الحمام.",
+      "examples": [
+        {
+          "de": "Meine Wohnung hat zwei Zimmer.",
+          "ar": "الشقة ديالي فيها جوج بيوت."
+        },
+        {
+          "de": "{f:Die Küche} ist klein.",
+          "ar": "الكوزينة صغيرة."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Meine Wohnung hat drei …",
+          "options": [
+            "Zimmers",
+            "Zimmer",
+            "Zimmern"
+          ],
+          "answer": 1,
+          "feedback": "فهاد الجملة Zimmer هو جمع وباقي بنفس الشكل."
+        }
+      ]
+    },
+    {
+      "title": "فين كاينة الحاجة؟",
+      "german": "Wo steht der Tisch?",
+      "body": "فاش المكان ثابت وكنجاوبو على Wo، in كتجي مع Dativ. مع الاسم المحايد in dem كتختصر لـ im ومع المؤنث كنقولو in der.",
+      "examples": [
+        {
+          "de": "{m:Der Tisch} steht {d:im Zimmer}.",
+          "ar": "الطبلة كاينة فالبيت."
+        },
+        {
+          "de": "Ich bin in {d:der Küche}.",
+          "ar": "أنا فالكوزينة."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Ich bin in … Wohnung.",
+          "options": [
+            "die",
+            "das",
+            "der"
+          ],
+          "answer": 2,
+          "feedback": "Wohnung مؤنث، ومع المكان الثابت كنقولو in der Wohnung."
+        }
+      ]
+    },
+    {
+      "title": "نوصفو الطريق",
+      "german": "Nach dem Weg fragen",
+      "body": "باش تسول على الطريق بأدب، بدا بـ Entschuldigung. geradeaus هي نيشان، links على ليسر وrechts على ليمن. مع Sie كنقولو Gehen Sie.",
+      "examples": [
+        {
+          "de": "Entschuldigung, wo ist {n:das Rathaus}?",
+          "ar": "سمح ليا، فين كاينة البلدية؟"
+        },
+        {
+          "de": "Gehen Sie geradeaus und dann links.",
+          "ar": "سير نيشان ومن بعد دور على ليسر."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "شنو كتعني geradeaus؟",
+          "options": [
+            "نيشان",
+            "على ليمن",
+            "على ليسر"
+          ],
+          "answer": 0,
+          "feedback": "geradeaus يعني كمّل فالطريق بلا ما تدور."
+        }
+      ]
+    },
+    {
+      "title": "نعمر الفورمولير",
+      "german": "Das Formular ausfüllen",
+      "body": "فالفورمولير Straße كتقصد الزنقة وHausnummer رقم الدار. PLZ اختصار ديال Postleitzahl، يعني الكود البريدي. فرق بين Adresse وGeburtsort.",
+      "examples": [
+        {
+          "de": "Meine Hausnummer ist acht.",
+          "ar": "رقم الدار ديالي هو تمانية."
+        },
+        {
+          "de": "Wie lautet Ihre Postleitzahl?",
+          "ar": "شنو هو الكود البريدي ديالكم؟"
+        },
+        {
+          "de": "Wie lautet {f:die Hausnummer}?",
+          "ar": "شنو هو رقم الدار؟"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "فخانة PLZ شنو خاصك تكتب؟",
+          "options": [
+            "النسب",
+            "الكود البريدي",
+            "تاريخ الازدياد"
+          ],
+          "answer": 1,
+          "feedback": "PLZ هي Postleitzahl، وفألمانيا كتكون من خمسة ديال الأرقام."
+        }
+      ]
+    },
+    {
+      "title": "نسجلو السكن",
+      "german": "Sich anmelden",
+      "body": "فشباك البلدية تقدر تقول Ich möchte mich anmelden. mich كترجع ليك نتا، يعني بغيتي تسجل راسك. سول على الوثائق باستعمال Welche Unterlagen …؟",
+      "examples": [
+        {
+          "de": "Ich möchte mich anmelden.",
+          "ar": "بغيت نسجل السكن ديالي."
+        },
+        {
+          "de": "Welche Unterlagen brauche ich?",
+          "ar": "شنو الوثائق اللي خاصني؟"
+        },
+        {
+          "de": "Hier ist {m:der Ausweis}.",
+          "ar": "ها هي بطاقة التعريف."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "كمّل • Ich möchte … anmelden.",
+          "options": [
+            "mein",
+            "mir",
+            "mich"
+          ],
+          "answer": 2,
+          "feedback": "الفعل هو sich anmelden ومع ich كنستعملو mich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Wohnung",
+      "article": "die",
+      "plural": "Wohnungen",
+      "meaning": "الشقة",
+      "example": "{f:Die Wohnung} ist hell."
+    },
+    {
+      "word": "Haus",
+      "article": "das",
+      "plural": "Häuser",
+      "meaning": "الدار",
+      "example": "{n:Das Haus} ist alt."
+    },
+    {
+      "word": "Zimmer",
+      "article": "das",
+      "plural": "Zimmer",
+      "meaning": "البيت",
+      "example": "Mein Zimmer ist klein."
+    },
+    {
+      "word": "Küche",
+      "article": "die",
+      "plural": "Küchen",
+      "meaning": "الكوزينة",
+      "example": "{f:Die Küche} hat ein Fenster."
+    },
+    {
+      "word": "Bad",
+      "article": "das",
+      "plural": "Bäder",
+      "meaning": "الحمام",
+      "example": "{n:Das Bad} ist neu."
+    },
+    {
+      "word": "Balkon",
+      "article": "der",
+      "plural": "Balkone",
+      "meaning": "البالكون",
+      "example": "{m:Der Balkon} ist groß."
+    },
+    {
+      "word": "Tür",
+      "article": "die",
+      "plural": "Türen",
+      "meaning": "الباب",
+      "example": "{f:Die Tür} ist offen."
+    },
+    {
+      "word": "Fenster",
+      "article": "das",
+      "plural": "Fenster",
+      "meaning": "الشرجم",
+      "example": "{n:Das Fenster} ist zu."
+    },
+    {
+      "word": "Tisch",
+      "article": "der",
+      "plural": "Tische",
+      "meaning": "الطبلة",
+      "example": "{m:Der Tisch} steht hier."
+    },
+    {
+      "word": "Stuhl",
+      "article": "der",
+      "plural": "Stühle",
+      "meaning": "الكرسي",
+      "example": "{m:Der Stuhl} ist frei."
+    },
+    {
+      "word": "Bett",
+      "article": "das",
+      "plural": "Betten",
+      "meaning": "الناموسية",
+      "example": "Mein Bett steht am Fenster."
+    },
+    {
+      "word": "Schlüssel",
+      "article": "der",
+      "plural": "Schlüssel",
+      "meaning": "الساروت",
+      "example": "Wo ist mein Schlüssel?"
+    },
+    {
+      "word": "Miete",
+      "article": "die",
+      "plural": "Mieten",
+      "meaning": "الكراء",
+      "example": "{f:Die Miete} ist hoch."
+    },
+    {
+      "word": "Vermieter",
+      "article": "der",
+      "plural": "Vermieter",
+      "meaning": "مول الدار",
+      "example": "{m:Der Vermieter} kommt morgen."
+    },
+    {
+      "word": "Straße",
+      "article": "die",
+      "plural": "Straßen",
+      "meaning": "الزنقة",
+      "example": "{f:Die Straße} ist lang."
+    },
+    {
+      "word": "Hausnummer",
+      "article": "die",
+      "plural": "Hausnummern",
+      "meaning": "رقم الدار",
+      "example": "Meine Hausnummer ist zwölf."
+    },
+    {
+      "word": "Postleitzahl",
+      "article": "die",
+      "plural": "Postleitzahlen",
+      "meaning": "الكود البريدي",
+      "example": "Bitte schreiben Sie Ihre Postleitzahl."
+    },
+    {
+      "word": "Rathaus",
+      "article": "das",
+      "plural": "Rathäuser",
+      "meaning": "البلدية",
+      "example": "{n:Das Rathaus} ist links."
+    },
+    {
+      "word": "Amt",
+      "article": "das",
+      "plural": "Ämter",
+      "meaning": "الإدارة",
+      "example": "{n:Das Amt} öffnet um neun."
+    },
+    {
+      "word": "Formular",
+      "article": "das",
+      "plural": "Formulare",
+      "meaning": "الفورمولير",
+      "example": "Bitte füllen Sie {a:das Formular} aus."
+    },
+    {
+      "word": "Pass",
+      "article": "der",
+      "plural": "Pässe",
+      "meaning": "الباسبور",
+      "example": "Hier ist mein Pass."
+    },
+    {
+      "word": "Ausweis",
+      "article": "der",
+      "plural": "Ausweise",
+      "meaning": "بطاقة التعريف",
+      "example": "Mein Ausweis ist gültig."
+    },
+    {
+      "word": "Anmeldung",
+      "article": "die",
+      "plural": "Anmeldungen",
+      "meaning": "التسجيل",
+      "example": "Ich habe einen Termin zur Anmeldung."
+    },
+    {
+      "word": "Unterschrift",
+      "article": "die",
+      "plural": "Unterschriften",
+      "meaning": "السينيَة",
+      "example": "Hier fehlt Ihre Unterschrift."
+    },
+    {
+      "word": "Haltestelle",
+      "article": "die",
+      "plural": "Haltestellen",
+      "meaning": "محطة الطوبيس",
+      "example": "{f:Die Haltestelle} ist rechts."
+    }
+  ]
+}
