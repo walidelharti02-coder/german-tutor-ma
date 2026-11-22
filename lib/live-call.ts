@@ -1,13 +1,7 @@
+import { liveModels, primaryLiveModel } from "./live-models";
 // This client opens Google's BidiGenerateContent socket only after the learner taps Call.
 const endpoint =
   "wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent";
-// Strongest first. All have unlimited daily requests; the first two allow 65K TPM, the last 1M TPM.
-export const liveModels = [
-  "gemini-3.8-live",
-  "gemini-3-flash-live",
-  "gemini-2.5-flash-native-audio-dialog",
-] as const;
-export const primaryLiveModel = liveModels[0];
 const COOLDOWN_MS = 65_000;
 const cooldownKey = "oustad-walid.live-cooldowns.v1";
 // Conditions for a natural pause before switching back to the primary model.
@@ -262,11 +256,27 @@ export class LiveCall {
       "\nContinue naturally from the last turn. If the learner's last turn is unanswered, answer it briefly."
     );
   }
-  private connect(model: string): Promise<Attempt> {
+  private async connect(model: string): Promise<Attempt> {
+    let url = endpoint + "?key=" + encodeURIComponent(this.key);
+    if (!this.key) {
+      try {
+        const response = await fetch("/api/key", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ model }),
+          cache: "no-store",
+        });
+        if (!response.ok) return { ok: false, kind: classify("", response.status) };
+        const { token } = await response.json();
+        if (typeof token !== "string" || !token) return { ok: false, kind: "denied" };
+        url = "wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContentConstrained?access_token=" + encodeURIComponent(token);
+      } catch {
+        return { ok: false, kind: "network" };
+      }
+    }
+    if (this.closed) return { ok: false, kind: "cancelled" };
     return new Promise((resolve) => {
-      const ws = new WebSocket(
-        endpoint + "?key=" + encodeURIComponent(this.key),
-      );
+      const ws = new WebSocket(url);
       ws.binaryType = "arraybuffer";
       let settled = false;
       const settle = (result: Attempt) => {

@@ -5,7 +5,7 @@ import { TutorRoom } from "./tutor-room";
 import { LiveCall, type LiveStatus } from "@/lib/live-call";
 import { readPhoneKey } from "@/lib/phone-key";
 type Line = { speaker: "user" | "tutor"; text: string; turn: number };
-function LiveRoom() {
+function LiveRoom({ hasServerKey }: { hasServerKey: boolean }) {
   const call = useRef<LiveCall | null>(null),
     turn = useRef(0),
     log = useRef<HTMLDivElement>(null);
@@ -43,7 +43,7 @@ function LiveRoom() {
   function start() {
     if (call.current) return;
     const key = readPhoneKey();
-    if (!key) {
+    if (!key && !hasServerKey) {
       setNotice(
         "زيد مفتاح Gemini من زر مفتاح الذكاء الاصطناعي فوق، ومن بعد بدا المكالمة.",
       );
@@ -168,7 +168,7 @@ function LiveBadge({ status }: { status: LiveStatus }) {
     </bdi>
   );
 }
-export function SpeakModes() {
+export function SpeakModes({ hasServerKey }: { hasServerKey: boolean }) {
   const [live, setLive] = useState(true);
   return (
     <div className="stack">
@@ -190,7 +190,7 @@ export function SpeakModes() {
           اضغط وتكلّم أو كتب
         </button>
       </div>
-      {live ? <LiveRoom /> : <TutorRoom />}
+      {live ? <LiveRoom hasServerKey={hasServerKey} /> : <TutorRoom />}
     </div>
   );
 }

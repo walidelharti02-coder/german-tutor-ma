@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { KeyRound, X } from "lucide-react";
 import { readPhoneKey, storePhoneKey } from "@/lib/phone-key";
-export function KeySettings() {
+export function KeySettings({ hasServerKey }: { hasServerKey: boolean }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const [value, setValue] = useState(""),
     [saved, setSaved] = useState(false),
@@ -32,7 +32,7 @@ export function KeySettings() {
       {notice && <span className="keyToast" role="status">{notice}</span>}
       <dialog
         ref={dialog}
-        className="keyDialog"
+        className="keyDialog fixed inset-0 z-50 pointer-events-auto"
         aria-labelledby="key-title"
         onClose={() => setValue("")}
       >
@@ -59,7 +59,7 @@ export function KeySettings() {
           <label htmlFor="phone-key">
             {saved
               ? "كاين مفتاح محفوظ. تقدر تبدّلو هنا."
-              : "دخل مفتاح Gemini ديالك"}
+              : hasServerKey ? "مفتاح التطبيق واجد. تقدر تستعمل مفتاحك الخاص هنا." : "دخل مفتاح Gemini ديالك"}
           </label>
           <input
             id="phone-key"
@@ -81,7 +81,16 @@ export function KeySettings() {
           </a>
           <p>باش تبقى فالاستعمال المجاني، استعمل مشروع بلا فوترة مفعّلة.</p>
           <div className="heroActions">
-            <button className="btn primary" disabled={!value.trim()}>
+            <button
+              type="button"
+              className="btn primary relative z-10 pointer-events-auto touch-manipulation"
+              style={{ minHeight: 48 }}
+              onClick={() => save(value)}
+              onTouchEnd={(event) => {
+                event.preventDefault();
+                save(value);
+              }}
+            >
               حفظ المفتاح
             </button>
             {saved && (

@@ -32,7 +32,7 @@ export default async function RootLayout({
     <html lang="ary" dir="rtl">
       <body>
         <LearnerProvider value={initial}>
-          <Shell lexicon={lexicon}>{children}</Shell>
+          <Shell hasServerKey={Boolean(process.env.GEMINI_API_KEY?.trim())} lexicon={lexicon}>{children}</Shell>
         </LearnerProvider>
       </body>
     </html>

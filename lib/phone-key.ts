@@ -12,10 +12,13 @@ export function migrateLegacyKey(current: string, legacy: string) {
   } catch {}
 }
 // Set only when this page has to override inaccessible or read-only storage.
-let memoryOverride: string | undefined;
+declare global {
+  interface Window { __GEMINI_KEY?: string }
+}
 
 export function readPhoneKey() {
-  if (memoryOverride !== undefined) return memoryOverride;
+  if (typeof window === "undefined") return "";
+  if (window.__GEMINI_KEY !== undefined) return window.__GEMINI_KEY;
   try {
     const temporary = sessionStorage.getItem(keyName);
     if (temporary !== null) return temporary.trim();
@@ -30,7 +33,7 @@ export function readPhoneKey() {
 
 export function storePhoneKey(value: string): "local" | "session" | "memory" {
   const key = value.trim();
-  memoryOverride = key;
+  window.__GEMINI_KEY = key;
   try {
     if (key) localStorage.setItem(keyName, key);
     else {
@@ -39,14 +42,14 @@ export function storePhoneKey(value: string): "local" | "session" | "memory" {
     }
     try {
       sessionStorage.removeItem(keyName);
-      memoryOverride = undefined;
+      delete window.__GEMINI_KEY;
     } catch {}
     return "local";
   } catch {
     try {
       // An empty value masks an older local key when removal is denied.
       sessionStorage.setItem(keyName, key);
-      memoryOverride = undefined;
+      delete window.__GEMINI_KEY;
       return "session";
     } catch {
       return "memory";

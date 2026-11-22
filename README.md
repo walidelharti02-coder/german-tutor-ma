@@ -8,7 +8,7 @@ Learn German on your phone with Moroccan Darija explanations. The A1 course incl
 
 1. Tap **Deploy with Vercel**, sign in and deploy with the default Next.js settings. For a private source repository, open **Vercel → Add New → Project**, connect your GitHub account and import `german-tutor-ma`. Both paths require the source code to be present in the repository.
 2. Open the resulting **HTTPS** deployment on your phone. Lessons, vocabulary, review and mock text conversations work immediately. Vercel needs zero database settings or server secrets.
-3. Tap **مفتاح الذكاء الاصطناعي** on the dashboard or in the tutor room. Paste your personal Gemini API key and save. Use a project with billing disabled for free-tier use. [Get an API key](https://aistudio.google.com/api-keys)
+3. Set `GEMINI_API_KEY` in the Vercel project’s production environment and redeploy to enable chat and Live for everyone. Each Live connection gets a short-lived, single-use token scoped to its model. To use a personal key instead, tap **مفتاح الذكاء الاصطناعي** on the dashboard or in the tutor room. Paste your personal Gemini API key and save. Use a project with billing disabled for free-tier use. [Get an API key](https://aistudio.google.com/api-keys)
 4. Open **غرفة المحادثة → مكالمة صوتية مباشرة → بدا المكالمة**, allow microphone access and start speaking. Use **اضغط وتكلّم أو كتب** for push-to-talk, role-play, exam practice and text chat.
 
 ## Voice and model availability

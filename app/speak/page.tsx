@@ -9,7 +9,7 @@ export default function Page() {
           <p>تمرّن مع الأستاذ وليد بالصوت ولا بالكتابة.</p>
         </div>
       </div>
-      <SpeakModes />
+      <SpeakModes hasServerKey={Boolean(process.env.GEMINI_API_KEY?.trim())} />
     </>
   );
 }

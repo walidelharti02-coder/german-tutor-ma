@@ -110,6 +110,7 @@ export async function POST(req: Request) {
     : "A1";
   const key =
     req.headers.get("x-gemini-api-key")?.trim() ||
+    t.apiKey ||
     process.env.GEMINI_API_KEY?.trim();
   const started = Date.now();
   let state: ModelState = pruneState(t.modelState, started);

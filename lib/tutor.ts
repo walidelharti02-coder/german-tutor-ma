@@ -35,6 +35,7 @@ export const replySchema = z
   .strict();
 export type Reply = z.infer<typeof replySchema>;
 export const requestSchema = z.object({
+  apiKey: z.string().trim().optional(),
   message: z.string().trim().min(1).max(1200),
   mode: z.enum(["free", "role", "exam"]),
   scenario: z.enum(["bakery", "doctor", "housing", "interview"]),

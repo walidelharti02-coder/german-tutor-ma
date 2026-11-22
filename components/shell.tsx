@@ -31,7 +31,9 @@ const nav = [
 export function Shell({
   children,
   lexicon,
+  hasServerKey,
 }: {
+  hasServerKey: boolean;
   children: React.ReactNode;
   lexicon: Lexicon;
 }) {
@@ -145,7 +147,7 @@ export function Shell({
               </strong>
             </div>
             <div className="topActions">
-              <KeySettings />
+              <KeySettings hasServerKey={hasServerKey} />
               <span className="langpill" dir="ltr">
                 <i className="flag" /> Deutsch <b>·</b> A1
               </span>
