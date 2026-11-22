@@ -15,8 +15,8 @@
           "ar": "السلام، شنو سميتكم؟"
         },
         {
-          "de": "Hallo, ich heiße Amin.",
-          "ar": "سلام، سميتي أمين."
+          "de": "Hallo, ich heiße Walid.",
+          "ar": "سلام، سميتي وليد."
         },
         {
           "de": "Hallo, ist {m:der Platz} hier frei?",
@@ -42,8 +42,8 @@
       "body": "باش تعرّف براسك، قول Ich heiße وزيد سميتك. فالفورمولير Vorname هو الاسم الشخصي وNachname هو النسب.",
       "examples": [
         {
-          "de": "{m:Der Vorname} ist Amin.",
-          "ar": "الاسم الشخصي هو أمين."
+          "de": "{m:Der Vorname} ist Walid.",
+          "ar": "الاسم الشخصي هو وليد."
         },
         {
           "de": "Mein Nachname ist Benali.",

@@ -1540,3 +1540,5 @@ input[type="checkbox"] {
   color: #b45309;
   border-color: #f59e0b80;
 }
+
+.keyToast { position: fixed; inset-inline: 12px; bottom: max(16px, env(safe-area-inset-bottom)); margin: auto; width: fit-content; max-width: calc(100vw - 24px); z-index: 50; background: var(--violet-dark); color: white; padding: 10px 16px; border-radius: 10px; }

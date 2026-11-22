@@ -1,32 +1,35 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { KeyRound, X } from "lucide-react";
 import { readPhoneKey, storePhoneKey } from "@/lib/phone-key";
 export function KeySettings() {
   const dialog = useRef<HTMLDialogElement>(null);
   const [value, setValue] = useState(""),
     [saved, setSaved] = useState(false),
-    [error, setError] = useState("");
+    [notice, setNotice] = useState("");
   function open() {
     setValue("");
-    setError("");
+    setNotice("");
     setSaved(Boolean(readPhoneKey()));
     dialog.current?.showModal();
   }
   function save(key: string) {
-    try {
-      storePhoneKey(key);
-      dialog.current?.close();
-    } catch {
-      setError("تأكد من المفتاح ومن صلاحية التخزين فالمتصفح.");
-    }
+    const scope = storePhoneKey(key);
+    dialog.current?.close();
+    setNotice(!key.trim() ? "تم مسح المفتاح." : scope === "local" ? "تحفظ المفتاح فهاد المتصفح." : scope === "session" ? "تحفظ المفتاح حتى تسدّ هاد التبويب." : "المفتاح واجد حتى تعاود تحمّل الصفحة.");
   }
+  useEffect(() => {
+    if (!notice) return;
+    const timer = setTimeout(() => setNotice(""), 5000);
+    return () => clearTimeout(timer);
+  }, [notice]);
   return (
     <>
       <button className="btn light keyBtn" onClick={open}>
         <KeyRound size={16} />
         مفتاح الذكاء الاصطناعي
       </button>
+      {notice && <span className="keyToast" role="status">{notice}</span>}
       <dialog
         ref={dialog}
         className="keyDialog"
@@ -65,7 +68,6 @@ export function KeySettings() {
             autoComplete="off"
             spellCheck={false}
             autoCapitalize="none"
-            maxLength={256}
             value={value}
             onChange={(e) => setValue(e.target.value)}
           />
@@ -78,7 +80,6 @@ export function KeySettings() {
             جيب مفتاح من Google AI Studio
           </a>
           <p>باش تبقى فالاستعمال المجاني، استعمل مشروع بلا فوترة مفعّلة.</p>
-          {error && <p role="alert">{error}</p>}
           <div className="heroActions">
             <button className="btn primary" disabled={!value.trim()}>
               حفظ المفتاح

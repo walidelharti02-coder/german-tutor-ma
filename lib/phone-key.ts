@@ -11,7 +11,15 @@ export function migrateLegacyKey(current: string, legacy: string) {
     }
   } catch {}
 }
+// Set only when this page has to override inaccessible or read-only storage.
+let memoryOverride: string | undefined;
+
 export function readPhoneKey() {
+  if (memoryOverride !== undefined) return memoryOverride;
+  try {
+    const temporary = sessionStorage.getItem(keyName);
+    if (temporary !== null) return temporary.trim();
+  } catch {}
   try {
     migrateLegacyKey(keyName, legacyKeyName);
     return localStorage.getItem(keyName)?.trim() ?? "";
@@ -19,10 +27,29 @@ export function readPhoneKey() {
     return "";
   }
 }
-export function storePhoneKey(value: string) {
+
+export function storePhoneKey(value: string): "local" | "session" | "memory" {
   const key = value.trim();
-  if (key && !/^[A-Za-z0-9_-]{10,256}$/.test(key))
-    throw new Error("Invalid key format");
-  if (key) localStorage.setItem(keyName, key);
-  else localStorage.removeItem(keyName);
+  memoryOverride = key;
+  try {
+    if (key) localStorage.setItem(keyName, key);
+    else {
+      localStorage.removeItem(legacyKeyName);
+      localStorage.removeItem(keyName);
+    }
+    try {
+      sessionStorage.removeItem(keyName);
+      memoryOverride = undefined;
+    } catch {}
+    return "local";
+  } catch {
+    try {
+      // An empty value masks an older local key when removal is denied.
+      sessionStorage.setItem(keyName, key);
+      memoryOverride = undefined;
+      return "session";
+    } catch {
+      return "memory";
+    }
+  }
 }
