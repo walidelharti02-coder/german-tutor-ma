@@ -32,7 +32,7 @@ export function KeySettings({ hasServerKey }: { hasServerKey: boolean }) {
       {notice && <span className="keyToast" role="status">{notice}</span>}
       <dialog
         ref={dialog}
-        className="keyDialog fixed inset-0 z-50 pointer-events-auto"
+        className="keyDialog inset-0 z-50 pointer-events-auto"
         aria-labelledby="key-title"
         onClose={() => setValue("")}
       >
